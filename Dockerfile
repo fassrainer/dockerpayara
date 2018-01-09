@@ -1,5 +1,5 @@
-FROM connect/java
-LABEL maintainer="Connect" description="Payara Server Full"
+FROM fass/java
+LABEL maintainer="fass" description="Payara Server Full"
 ENV http_proxy web-proxy.esg-gmbh.de:3128
 ENV https_proxy web-proxy.esg-gmbh.de:3128
 ENV PAYARA_ARCHIVE payara41
