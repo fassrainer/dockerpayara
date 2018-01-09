@@ -1,7 +1,7 @@
 FROM fass/java
 LABEL maintainer="fass" description="Payara Server Full"
-ENV http_proxy web-proxy.esg-gmbh.de:3128
-ENV https_proxy web-proxy.esg-gmbh.de:3128
+ENV http_proxy http://web-proxy.esg-gmbh.de:3128
+ENV https_proxy http://web-proxy.esg-gmbh.de:3128
 ENV PAYARA_ARCHIVE payara41
 ENV DOMAIN_NAME domain1
 ENV INSTALL_DIR /opt
